@@ -5,13 +5,10 @@ This project is a **fashion image similarity and recommendation system** built u
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Evaluation](#evaluation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -31,3 +28,21 @@ The Fashion Image Similarity and Recommendation System is designed to:
 
 ## Project Structure
 
+![Confusion Matrix](docs/resnet50.png)
+
+
+```markdown 
+# Confusion matrix 
+
+Classification Report for masterCategory:
+               precision    recall  f1-score   support
+
+      Apparel       0.98      0.97      0.97       787
+  Accessories       0.99      1.00      0.99      1388
+     Footwear       0.99      1.00      0.99       642
+Personal Care       0.00      0.00      0.00        11
+   Free Items       0.95      0.97      0.96       172
+
+     accuracy                           0.98      3000
+    macro avg       0.78      0.79      0.78      3000
+ weighted avg       0.98      0.98      0.98      3000
