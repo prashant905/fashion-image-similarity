@@ -1,0 +1,12 @@
+tensorflow==2.13.0          # Specify version to match your TensorFlow setup
+tensorflow-hub              # For pre-trained models from TensorFlow Hub
+numpy                        # For array manipulation
+pandas                       # For data handling and processing
+opencv-python                # For image loading and processing
+Pillow                       # For image manipulation
+scikit-learn                 # For similarity calculations and evaluation metrics
+matplotlib                   # For plotting images and evaluation results
+seaborn                      # For plotting confusion matrices
+swifter                      # For faster Pandas apply functions
+joblib                       # For saving and loading embeddings as pickle files
+tqdm                         # For progress bars
