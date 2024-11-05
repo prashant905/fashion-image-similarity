@@ -27,10 +27,10 @@ The Fashion Image Similarity and Recommendation System is designed to:
 
 Similarity results:
 
-**For Resnet50:
+** For Resnet50:
 ![similarity Result resnet50](docs/resnet50.png)
 
-**For Efficientnet:
+** For Efficientnet:
 
 ![similarity Result efficient](docs/efficientnet.png)
 
@@ -51,7 +51,7 @@ EfficientNetB0:
 EfficientNet's results show a broader range of plaid colors and styles, which could be beneficial if the aim is to offer visually similar but varied options.
 EfficientNet seems to slightly outperform in distinguishing variations within the same style (plaid pattern).
 
-###Image Quality and Details:
+### Image Quality and Details:
 Both models seem to generate high-quality recommendations, but EfficientNetB0's results may have a marginal advantage in distinguishing fine-grained details like pattern variations and fabric type, which is typical of EfficientNet’s superior performance in fine-tuned tasks.
 
 **Confusion Matrix for resnet50
