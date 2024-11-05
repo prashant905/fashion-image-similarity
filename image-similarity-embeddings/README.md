@@ -27,10 +27,10 @@ The Fashion Image Similarity and Recommendation System is designed to:
 
 Similarity results:
 
-** For Resnet50:
+### For Resnet50:
 ![similarity Result resnet50](docs/resnet50.png)
 
-** For Efficientnet:
+### For Efficientnet:
 
 ![similarity Result efficient](docs/efficientnet.png)
 
@@ -54,18 +54,18 @@ EfficientNet seems to slightly outperform in distinguishing variations within th
 ### Image Quality and Details:
 Both models seem to generate high-quality recommendations, but EfficientNetB0's results may have a marginal advantage in distinguishing fine-grained details like pattern variations and fabric type, which is typical of EfficientNet’s superior performance in fine-tuned tasks.
 
-**Confusion Matrix for resnet50
+### Confusion Matrix for resnet50
 
 ![Confusion Matrix resnet50](docs/resnet_confusion.png)
 
-**Confusion Matrix for efficientnet
+### Confusion Matrix for efficientnet
 
 ![Confusion Matrix efficientnet](docs/efficientnet_confusion.png)
 
 
 
 ```markdown 
-# Clssification report for two models:
+# Classification report for two models:
 
 Resnet Classification Report for masterCategory:
                precision    recall  f1-score   support
