@@ -107,6 +107,7 @@ EfficientNet slightly outperforms ResNet with an accuracy of 99% versus 98%. It 
 ## Computational time:
 
 Efficientnet -- 830.68 sec
+
 Resnet50 -- 1305.342 sec 
 
-We can whicle Efficientnet performs better as well as computationally effectivecompared to resnet50.
+We can see Efficientnet performs better as well as computationally effective compared to resnet50.
