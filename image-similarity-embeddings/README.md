@@ -94,10 +94,15 @@ Personal Care       0.00      0.00      0.00        11
     macro avg       0.79      0.79      0.79      3000
  weighted avg       0.99      0.99      0.99      3000
 
+ ```markdown 
+
+
 
 Based on classification report of two model we can conclude:
 
 EfficientNet slightly outperforms ResNet with an accuracy of 99% versus 98%. It achieves higher precision and recall in Accessories and Free Items, and performs slightly better in overall macro and weighted averages. Both models perform poorly on Personal Care due to the very low support (only 11 instances). For most categories, EfficientNet provides marginally better classification metrics, indicating a more balanced performance across the dataset.
+
+
 
 ## Computational time:
 
