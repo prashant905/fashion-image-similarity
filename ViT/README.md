@@ -32,3 +32,9 @@ To search for the top 5 similar images to a query image, simply run:
 
 ```bash
 python src/main.py
+
+
+## Example Output
+The script visualizes the query image alongside the top similar images with their similarity scores:
+![Example Output](docs/ViT.png)  
+
