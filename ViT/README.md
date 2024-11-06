@@ -32,6 +32,7 @@ To search for the top 5 similar images to a query image, simply run:
 
 ```bash
 python src/main.py
+```
 
 
 ## Example Output
