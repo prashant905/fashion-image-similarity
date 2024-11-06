@@ -35,7 +35,8 @@ python src/main.py
 ```
 
 
-## Example Output
+## Output
 The script visualizes the query image alongside the top similar images with their similarity scores:
+
 ![Example Output](docs/ViT.png)  
 
