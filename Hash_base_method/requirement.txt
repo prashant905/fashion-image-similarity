@@ -1,0 +1,9 @@
+# requirements.txt
+# ----------------------------
+torch
+pillow
+torchvision
+scikit-learn
+datasketch
+matplotlib
+tqdm
