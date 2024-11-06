@@ -20,12 +20,6 @@ All configuration settings, including paths, are located in `src/config.py`. Adj
     pip install -r requirements.txt
     ```
 
-2. **Prepare the FAISS Index:**
-
-    ```bash
-    python src/main.py
-    ```
-
 ## Usage
 
 To search for the top 5 similar images to a query image, simply run:
